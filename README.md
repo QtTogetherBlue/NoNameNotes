@@ -1,6 +1,6 @@
 # **未名笔记**
 
-<img src="D:\学习\g大二下\程序设计实习\img\2cad0cb112c52ebd3cae4c5afe5bf53.jpg" alt="2cad0cb112c52ebd3cae4c5afe5bf53" style="zoom:20%;" />
+<img src=".\img\2cad0cb112c52ebd3cae4c5afe5bf53.jpg" alt="2cad0cb112c52ebd3cae4c5afe5bf53" style="zoom:20%;" />
 
 <center>
     一起蓝队（贾逸帆 杜佳琪 李思澜）
@@ -22,7 +22,7 @@
 
 * 单击一个文件，进入该文件的文本编辑界面，会自动**读取**文件原本的内容，在文本编辑界面中显示。
 
-![image-20220630210124334](D:\学习\g大二下\程序设计实习\img\image-20220630210124334.png)
+<img src=".\img\image-20220630210124334.png" alt="image-20220630210124334" style="zoom: 67%;" />
 
 #### 文本编辑界面
 
@@ -32,17 +32,17 @@
 
 第三个橡皮按钮即是**清除**当前文本框中的所有内容，接下来**撤销**和**重做键**，实现的功能和一般APP中的功能类似。最后两个分别是**颜色**按钮和**字体**按钮，可以笔记内容中文本的字体和颜色。右上角的“**W**”和“铅笔”按钮也可以弹出一些**功能选项**。同时下方还设置了**状态栏**（记录一些信息等）和一个**悬浮窗口**。
 
-![image-20220630223016952](D:\学习\g大二下\程序设计实习\img\image-20220630223016952.png)
+<img src=".\img\image-20220630223016952.png" alt="image-20220630223016952" style="zoom:67%;" />
 
 <center class="half">
-    <img src="D:\学习\g大二下\程序设计实习\img\image-20220630222502774.png" width="300"/>
-    <img src="D:\学习\g大二下\程序设计实习\img\image-20220630222526343.png" width="300"/>
+    <img src=".\img\image-20220630222502774.png" width="300"/>
+    <img src=".\img\image-20220630222526343.png" width="300"/>
     <p>
         两个悬浮窗口
     </p>
 </center>
 
-<img src="D:\学习\g大二下\程序设计实习\img\image-20220630222619205.png" alt="image-20220630222619205" style="zoom:67%;" />
+<img src=".\img\image-20220630222619205.png" alt="image-20220630222619205" style="zoom:67%;" />
 
 <center>
     颜色选择窗口
@@ -95,20 +95,21 @@
 最初对于新建和编辑选项的设计是菜单`QMenu`，但最终采用`QDialog`（包括仅提示的对话框也采用`QDialog`而非`QMessageBox`）的原因之一就是`QDialog`子类定义有很大自由，可添加的控件多样又不至于过于复杂，样式也更为丰富且操作简单，更容易贴合项目界面整体风格。
 
 <center class="half">
-    <img src="D:\学习\g大二下\程序设计实习\img\image-20220630204635079.png" width="300"/>
-    <img src="D:\学习\g大二下\程序设计实习\img\image-20220630204810563.png" width="300"/>
+    <img src=".\img\image-20220630204635079.png" width="300"/>
+    <img src=".\img\image-20220630204810563.png" width="300"/>
     <p>
         new_edit和edit
     </p>
 </center>
 
 <center class="half">
-    <img src="D:\学习\g大二下\程序设计实习\img\image-20220630204710562.png" width="300"/>
-    <img src="D:\学习\g大二下\程序设计实习\img\image-20220630204710562.png" width="300"/>
+    <img src=".\img\image-20220630204710562.png" width="300"/>
+    <img src=".\img\image-20220630204710562.png" width="300"/>
     <p>
         exist和Empty
     </p>
 </center>
+
 
 ## 3. 小组成员分工情况
 
