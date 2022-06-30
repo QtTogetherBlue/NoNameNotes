@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res4/chehui1.png</file>
+        <file>res4/chehui2.png</file>
+        <file>res4/save.png</file>
+        <file>res4/wenjian.png</file>
+        <file>res4/xiangpi.png</file>
+        <file>res4/yanse.png</file>
+        <file>res4/ziti.png</file>
+    </qresource>
+</RCC>

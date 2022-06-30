@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/images"/>
+    <qresource prefix="/">
+        <file>buttons/addbutton.png</file>
+        <file>buttons/weimingbiji.png</file>
+    </qresource>
+</RCC>

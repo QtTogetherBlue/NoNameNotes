@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res3/add.png</file>
+        <file>res3/baocun.png</file>
+        <file>res3/color.png</file>
+        <file>res3/eraser.png</file>
+        <file>res3/font.png</file>
+    </qresource>
+</RCC>
